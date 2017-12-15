@@ -1,0 +1,35 @@
+.jumbotron {
+	background: black;
+	background-image: url("../images/train1.png");
+	opacity: 0.9;
+	color: white;
+	text-align: center;
+
+}
+
+label {
+	margin: 5px 0px;
+}
+
+.form-group {
+	margin: 2%;
+}
+
+#trainDetails {
+	margin: 3%;
+}
+
+#addTrain {
+	background: lightgrey;
+	margin: 3%;
+}
+
+#submit {
+	width: 200px;
+	height: 50px;
+	margin-left: 3%;
+}
+
+#tableheading, #formheading {
+	background-color: lightblue;
+}
