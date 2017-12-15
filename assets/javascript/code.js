@@ -41,8 +41,12 @@
       });
       var nextArrTimeAndMinsAway = getNextArrivalTimeAndMinsAway(firstTrainTime, frequency);
       nextArrival = nextArrTimeAndMinsAway[0];
-      minutesAway = nextArrTimeAndMinsAway[1]
-
+      minutesAway = nextArrTimeAndMinsAway[1];
+      $('#trainNameInput').val("");
+      $('#destInput').val("");
+      $('#firstTrainTimeInput').val("");
+      $('#frequencyInput').val("");
+      
   });
 
   function getNextArrivalTimeAndMinsAway(firstTrainTime, frequency) {
